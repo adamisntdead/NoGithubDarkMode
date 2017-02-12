@@ -11,12 +11,14 @@
   },
   "permissions": [
     "contentSettings",
-    "https://github.com/*"
+    "https://github.com/*",
+    "https://gist.github.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/*"
+        "https://github.com/*",
+        "https://gist.github.com/*"
       ],
       "js": [
         "src/inject/inject.js"
