@@ -1,6 +1,7 @@
 # No Github Dark Mode
 
 A simple Chrome Extension to change the GitHub menubar back to its old style.
+Supports GitHub Dashboard and GitHub Gist!
 
 --------------------------------------------------------------------------------
 
@@ -11,7 +12,7 @@ Before the extension                                                            
 -------
 
 ## How to install the extension
-1. Download the `zip` here: [NoDarkMode.zip](https://github.com/adamisntdead/NoGithubDarkMode/releases/download/0.0.1/NoDarkMode.zip)
+1. Download the `zip` here: [NoDarkMode.zip](https://github.com/adamisntdead/NoGithubDarkMode/releases/download/0.0.2/NoDarkMode.zip)
 2. Extract it
 3. Go to chrome `Settings`, then `Extensions`
 4. Enable Developer Mode
