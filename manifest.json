@@ -1,6 +1,6 @@
 {
   "name": "No GitHub Dark Mode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Removes the dark navigation bar from Github.com, and resets it to the old style",
   "homepage_url": "http://github.com/adamisntdead/NoGithubDarkMode",
@@ -20,8 +20,8 @@
         "https://github.com/*",
         "https://gist.github.com/*"
       ],
-      "js": [
-        "src/inject/inject.js"
+      "css": [
+        "src/inject/NoDarkMode.css"
       ]
     }
   ]

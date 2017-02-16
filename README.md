@@ -12,7 +12,7 @@ Before the extension                                                            
 -------
 
 ## How to install the extension
-1. Download the `zip` here: [NoDarkMode.zip](https://github.com/adamisntdead/NoGithubDarkMode/releases/download/0.0.2/NoDarkMode.zip)
+1. Download the `zip` here: [NoDarkMode.zip](https://github.com/adamisntdead/NoGithubDarkMode/releases/download/0.0.3/NoDarkMode.zip)
 2. Extract it
 3. Go to chrome `Settings`, then `Extensions`
 4. Enable Developer Mode
