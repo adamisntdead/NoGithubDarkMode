@@ -11,15 +11,15 @@
     color: #4078C0 !important;
 }
 
-.header .header-nav-link {
+.header .header-navlink {
     color: #555 !important;
 }
 
-.header .header-nav-link:hover, .header .header-nav-link:focus {
+.header .header-navlink:hover, .header .header-navlink:focus {
     color: #4078c0 !important;
 }
 
-.header .header-nav-link:hover .dropdown-caret, .header .header-nav-link:focus .dropdown-caret {
+.header .header-navlink:hover .dropdown-caret, .header .header-navlink:focus .dropdown-caret {
     border-top-color: #4078c0 !important;
 }
 
