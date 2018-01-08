@@ -1,8 +1,10 @@
+/* Menubar style */
 .Header {
     border-bottom: 1px solid #E5E5E5 !important;
     background-color: #F5F5F5 !important;
 }
 
+/* Menubar logo styles */
 .Header .header-logo-invertocat, .Header .header-logo-wordmark {
     color: #555 !important;
 }
@@ -11,7 +13,8 @@
     color: #4078C0 !important;
 }
 
-.Header .HeaderNavlink {
+/* Menubar link styles */
+.Header .HeaderNavlink, .Header .HeaderNavlink a {
     color: #555 !important;
 }
 
@@ -19,10 +22,20 @@
     color: #4078C0 !important;
 }
 
+.Header .HeaderNavlink a:hover, .Header .HeaderNavlink a:focus {
+    color: #4078C0 !important;
+}
+
+/* Not logged in menubar link style */
+.Header .HeaderMenu--bright .HeaderNavlink:hover, .Header .HeaderMenu--bright .HeaderNavlink:focus {
+    color: #4078C0 !important;
+}
+
 .Header .HeaderNavlink:hover .dropdown-caret, .Header .HeaderNavlink:focus .dropdown-caret {
     border-top-color: #4078C0 !important;
 }
 
+/* Menubar notification styles */
 .Header .notification-indicator {
 	color: #555 !important;
 }
@@ -31,6 +44,7 @@
     border-color: #F3F3F3 !important;
 }
 
+/* Menubar search styles */
 .Header .header-search {
     font-size: 14px !important;
 }
