@@ -1,66 +1,66 @@
 /* Menubar style */
-.Header {
+.Header-old {
     border-bottom: 1px solid #E5E5E5 !important;
     background-color: #F5F5F5 !important;
 }
 
 /* Menubar logo styles */
-.Header .header-logo-invertocat, .Header .header-logo-wordmark {
+.Header-old .octicon {
     color: #555 !important;
 }
 
-.Header .header-logo-invertocat:hover, .Header .header-logo-wordmark:hover {
+.Header-old a:hover .octicon, .Header-old a:hover .octicon {
     color: #4078C0 !important;
 }
 
 /* Menubar link styles */
-.Header .HeaderNavlink, .Header .HeaderNavlink a {
+.Header-old .HeaderNavlink, .Header-old .HeaderNavlink a, .Header-old .Header-link {
     color: #555 !important;
 }
 
-.Header .HeaderNavlink:hover, .Header .HeaderNavlink:focus {
+.Header-old .HeaderNavlink:hover, .Header-old .HeaderNavlink:focus, .Header-old .Header-link:hover {
     color: #4078C0 !important;
 }
 
-.Header .HeaderNavlink a:hover, .Header .HeaderNavlink a:focus {
+.Header-old .HeaderNavlink a:hover, .Header-old .HeaderNavlink a:focus, .Header-old .Header-link:focus {
     color: #4078C0 !important;
 }
 
 /* Not logged in menubar link style */
-.Header .HeaderMenu--bright .HeaderNavlink:hover, .Header .HeaderMenu--bright .HeaderNavlink:focus {
+.Header-old .HeaderMenu .HeaderMenu-link {
+    color: #555 !important;
+}
+
+.Header-old .HeaderMenu .HeaderMenu-link:hover, .Header-old .HeaderMenu .HeaderMenu-link:focus {
     color: #4078C0 !important;
 }
 
-.Header .HeaderNavlink:hover .dropdown-caret, .Header .HeaderNavlink:focus .dropdown-caret {
-    border-top-color: #4078C0 !important;
-}
-
 /* Menubar notification styles */
-.Header .notification-indicator {
+.Header-old .notification-indicator {
 	color: #555 !important;
 }
 
-.Header .notification-indicator .mail-status {
+.Header-old .notification-indicator .mail-status {
     border-color: #F3F3F3 !important;
 }
 
 /* Menubar search styles */
-.Header .header-search {
+.Header-old .header-search {
     font-size: 14px !important;
 }
 
-.Header .form-control.header-search-wrapper {
+.Header-old .form-control.header-search-wrapper {
     line-height: 21px !important;
 }
 
-.Header .header-search-scope {
+.Header-old .header-search-scope {
     font-size: 12px !important;
     line-height: 20px !important;
     color: #767676 !important;
     border-right-color: #EEE !important;
 }
 
-.Header .header-search-wrapper {
+.Header-old .header-search-wrapper {
     min-height: 0 !important;
     font-size: 14px !important;
     color: #333 !important;
@@ -69,36 +69,36 @@
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075) !important;
 }
 
-.Header .header-search-wrapper.focus {
+.Header-old .header-search-wrapper.focus {
     background-color: #FFF !important;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(81, 167, 232, 0.5) !important;
     border-color: #51A7E8 !important;
 }
 
-.Header .header-search-wrapper.focus .header-search-scope {
+.Header-old .header-search-wrapper.focus .header-search-scope {
     color: #4078C0 !important;
     background-color: #EDF2F9 !important;
     border-right-color: #C6D7EC !important;
 }
 
-.Header .header-search-input {
+.Header-old .header-search-input {
     min-height: 26px !important;
     font-size: 14px !important;
     color: #333 !important;
 }
 
-.Header .header-search-input::-webkit-input-placeholder {
+.Header-old .header-search-input::-webkit-input-placeholder {
     color: #999 !important;
 }
 
-.Header .header-search-input::-moz-placeholder {
+.Header-old .header-search-input::-moz-placeholder {
     color: #999 !important;
 }
 
-.Header .header-search-input:-ms-input-placeholder {
+.Header-old .header-search-input:-ms-input-placeholder {
     color: #999 !important;
 }
 
-.Header .header-search-input::placeholder {
+.Header-old .header-search-input::placeholder {
     color: #999 !important;
 }
